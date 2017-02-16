@@ -2,14 +2,18 @@
 <html>
     <head>
         <title>My Calculator</title>
+        <link href="https://fonts.googleapis.com/css?family=Neuton|Open+Sans:800|VT323" rel="stylesheet">
         <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
     <body>
         <h1 id="title">My Calculator</h1>
         <div id="keypad">
-            <table border="2">
+            <table>
                 <tr>
-                    <td colspan="4" id="display-bar" height="20px">VALUES GO HERE!!!!</td>
+                    <td colspan="4" height="20px"><div id="display-bar"></div></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><div id="calculator-brand">TI-BUDI</div></td>
                 </tr>
                 <tr>
                     <td><input type="button" value="9" onclick="display(9)"/></td>
